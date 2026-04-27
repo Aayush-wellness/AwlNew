@@ -1,26 +1,98 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400,300&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --font-antonio: var(--font-antonio), "Antonio", sans-serif;
+  --font-satoshi: "Satoshi", sans-serif;
+  --font-sans: "Satoshi", sans-serif;
+  --font-libre: var(--font-libre), serif;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/font/Satoshi/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
 :root {
+  /* Background colors */
   --background: #ffffff;
   --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Brand colors */
+  --primary: #047857;
+  --primary-dark: #065f46;
+  --secondary: #1f2937;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Text colors */
+  --nav-text: #1E1E1E;
+  --heading: #064e3b;
+  --title: #1f2937;
+  --subtitle: #4b5563;
+  --body-text: #6b7280;
+
+  /* Button colors */
+  --btn-primary-bg: #1f2937;
+  --btn-primary-hover: #111827;
+  --btn-primary-text: #ffffff;
+
+  --btn-secondary-bg: transparent;
+  --btn-secondary-border: #1f2937;
+  --btn-secondary-text: #1f2937;
+  --btn-secondary-hover-bg: #1f2937;
+  --btn-secondary-hover-text: #ffffff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: var(--font-antonio);
+}
+
+/* Custom utility classes */
+.navlink {
+  color: var(--nav-text);
+  transition: color 0.2s;
+}
+
+.navlink:hover {
+  color: #047857;
+}
+
+.heading {
+  color: var(--heading);
+}
+
+.title {
+  color: var(--title);
+}
+
+.subtitle {
+  color: var(--subtitle);
+}
+
+.body-text {
+  color: var(--body-text);
+}
+
+.Hero-title {
+  font-family: Antonio;
+  font-weight: 400;
+
+  font-size: 100px;
+  leading-trim: NONE;
+  line-height: 100px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
