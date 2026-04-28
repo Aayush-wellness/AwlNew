@@ -1,11 +1,11 @@
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-antonio: var(--font-antonio), "Antonio", sans-serif;
-  --font-satoshi: "Satoshi", sans-serif;
   --font-sans: "Satoshi", sans-serif;
-  --font-libre: var(--font-libre), serif;
+  --font-libre: "Libre Baskerville", serif;
+  --font-satoshi: ["var(--font-satoshi)"],
 }
 
 @font-face {

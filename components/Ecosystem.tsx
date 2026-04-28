@@ -5,42 +5,42 @@ const ecosystemData = [
     {
         id: "daily-wellness",
         title: "DAILY WELLNESS PRODUCTS",
-        image: "images/Component_8.png",
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/daily_wellness.png?v=1777359126",
         heading: "DAILY WELLNESS PRODUCTS",
         description: "A growing portfolio designed for everyday use - built around consistency, not occasions."
     },
     {
         id: "aayush-labs",
         title: "AAYUSH LABS",
-        image: "images/eco_ayush.png",
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/eco_ayush.png?v=1777359124",
         heading: "AAYUSH LABS",
         description: "In-house formulation and development capability ensuring quality, consistency, and scalable product innovation."
     },
     {
         id: "investor-ecosystem",
         title: "INVESTOR ECOSYSTEM",
-        image: "images/eco-investor.png",
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/eco-investor.png?v=1777359124",
         heading: "INVESTOR ECOSYSTEM",
         description: "Enabling long-term growth through strategic investment opportunities and transparent engagement."
     },
     {
         id: "sustainability",
         title: "SUSTAINABILITY & IMPACT",
-        image: "images/eco-sustain.png",
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/eco-sustain.png?v=1777359124",
         heading: "SUSTAINABILITY & IMPACT",
         description: "Focused on responsible sourcing, conscious production, and creating long-term health and environmental impact."
     },
     {
         id: "research",
         title: "RESEARCH & INNOVATION",
-        image: "images/eco-research.png",
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/eco-sustain.png?v=1777359124",
         heading: "RESEARCH & INNOVATION",
         description: "Pioneering studies bridging traditional Ayurveda with modern clinical science."
     },
     {
         id: "accelerator",
         title: "ACCELERATOR",
-        image: "images/eco-accel.png",
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/eco-accel.png?v=1777359124",
         heading: "ACCELERATOR",
         description: "Combining scientific research with Ayurvedic principles to develop credible, effective health solutions."
     }
@@ -78,14 +78,14 @@ export default function Ecosystem() {
 
                     {/* Main Title */}
                     <div className="mb-12 md:mb-20">
-                        <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl xl:text-3xl font-antonio font-bold tracking-tight uppercase scale-y-110 md:scale-y-125 lg:scale-y-150 origin-left whitespace-nowrap">
+                        <p className="text-white text-lg sm:text-base md:text-2xl lg:text-xl xl:text-3xl font-antonio font-bold tracking-tight uppercase scale-y-110 md:scale-y-125 lg:scale-y-150 origin-left whitespace-nowrap">
                             <span className="text-[#EEEE1F] mr-2 md:mr-3 border-l-4 border-[#EEEE1F] pl-3"></span> INSIDE THE AYUSH WELLNESS PLATFORM
                         </p>
                     </div>
 
                     {/* Product Highlight */}
                     <div className="max-w-1xl min-h-[250px] flex flex-col justify-center transition-opacity duration-300" key={activeData.id}>
-                        <h2 className="text-white text-xl md:text-3xl lg:text-4xl xl:text-6xl font-antonio font-bold mb-8 leading-tight whitespace-nowrap">
+                        <h2 className="text-white text-4xl md:text-5xl lg:text-4xl xl:text-6xl font-antonio font-bold mb-8 leading-tight whitespace-nowrap">
                             {activeData.heading}
                         </h2>
 
@@ -96,7 +96,7 @@ export default function Ecosystem() {
                         <button className="flex items-center gap-4 px-6 py-3 md:px-10 md:py-4 lg:mt-8 text-white rounded-full bg-white/10 backdrop-blur-lg border border-white/10 shadow-2xl hover:bg-white/20 transition-all duration-300 group w-fit">
                             <span className="text-lg md:text-xl font-medium tracking-wide">Learn More</span>
                             <div className="bg-white/20 rounded-full p-2 flex items-center justify-center transition-transform group-hover:translate-x-2">
-                                <img className="h-4 md:h-5" src="images/arrow_but.png" alt="" />
+                                <img className="h-4 md:h-5" src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/arrow_but.png?v=1777359120" alt="" />
                             </div>
                         </button>
                     </div>

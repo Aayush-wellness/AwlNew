@@ -7,28 +7,28 @@ const businessData = [
         tabTitle: "Repeat Consumption",
         heading: "High-frequency, habit-driven categories",
         description: "Products designed for daily use - driving consistent demand and long-term engagement.",
-        image: "images/repeat_cunsumption.png"
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/repeat_cunsumption.png?v=1777359122"
     },
     {
         id: "omnichannel",
         tabTitle: "Omnichannel Reach",
         heading: "Distribution built for accessibility at scale",
         description: "We operate across D2C, retail, and quick commerce - ensuring our products are available where and when consumers need them. This integrated approach strengthens both reach and reliability.",
-        image: "images/omnichannel.png" // Reusing or you can replace with another image
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/omnichannel.png?v=1777359122" // Reusing or you can replace with another image
     },
     {
         id: "mass-market",
         tabTitle: "Mass-Market Approach",
         heading: "Wellness designed for broad adoption",
         description: "Our products are built to be accessible across pricing, formats, and use-cases-allowing us to reach a wider consumer base beyond niche or premium segments.",
-        image: "images/mass_market.png"
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/mass_market.png?v=1777359122"
     },
     {
         id: "execution",
         tabTitle: "Execution-Led Strategy",
         heading: "Focused on delivery, not just positioning",
         description: "We prioritize operational strength across sourcing, supply chain, and distribution - ensuring consistency in product availability and consumer experience.",
-        image: "images/execution.png"
+        image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/execution.png?v=1777359122"
     }
 ];
 

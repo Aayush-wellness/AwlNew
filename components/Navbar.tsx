@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* Logo */}
         <div>
           <Link href="/">
-            <img src="/images/Frame 1100.png" alt="Logo" className="object-fit h-[50px] w-auto md:h-[60px]" />
+            <img src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/logo.png?v=1777359121" alt="Logo" className="object-fit h-[50px] w-auto md:h-[60px]" />
           </Link>
         </div>
 

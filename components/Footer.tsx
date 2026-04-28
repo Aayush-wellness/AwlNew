@@ -4,14 +4,14 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="bg-[#111111] text-white py-12 md:py-16 lg:py-20 px-6 md:px-12 lg:px-24">
-      <div className="max-w-[1400px] w-full mx-auto">
+      <div className="max-w-[1900px] w-full mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-10 lg:gap-8 mb-16">
           {/* Logo and Slogan */}
           <div className="md:col-span-3 lg:col-span-1">
             <div className="mb-8">
               <Link href="/">
                 <img
-                  src="/images/Frame 1100.png"
+                  src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/logo.png?v=1777359121"
                   alt="Aayush Wellness Logo"
                   className="h-10 md:h-12 w-auto brightness-0 invert"
                 />
@@ -79,7 +79,7 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-full bg-[#555555]/30 text-white px-5 py-3 rounded-xl text-sm md:text-base outline-none focus:ring-1 focus:ring-[#A6EB8E]/50 transition-all placeholder:text-gray-500 placeholder:italic"
+                  className="w-full bg-[#555555]/30 text-white px-4 py-3 rounded-xl text-sm md:text-base outline-none focus:ring-1 focus:ring-[#A6EB8E]/50 transition-all placeholder:text-gray-500 placeholder:italic"
                 />
               </div>
               <button className="bg-[#004627] hover:bg-[#005a32] text-white w-12 h-12 flex items-center justify-center rounded-full transition-all duration-300 group shadow-lg shadow-black/20 shrink-0">
@@ -92,7 +92,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-10 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] md:text-xs text-gray-500 uppercase tracking-widest">
+        <div className="pt-10 border-t border-white-800 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] md:text-xs text-gray-500 uppercase tracking-widest">
           <p>© 2026 Aayush Wellness. All rights reserved.</p>
           <div className="flex gap-8">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

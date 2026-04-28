@@ -2,6 +2,28 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Antonio } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import localFont from "next/font/local";
+
+const satoshi = localFont({
+  src: [
+    {
+      path: "./fonts/Satoshi/Satoshi-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Satoshi/Satoshi-Medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Satoshi/Satoshi-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-satoshi",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${antonio.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${antonio.variable} ${satoshi.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Navbar />

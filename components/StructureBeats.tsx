@@ -9,19 +9,19 @@ export default function StructureBeats() {
             number: "01",
             title: "Daily-use products",
             description: "Formulated for consistent, everyday consumption - not one-off use.",
-            image: "images/carrousel_1.png"
+            image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/carrousel_1.png?v=1777359120"
         },
         {
             number: "02",
             title: "Habit-driven Approach",
             description: "Designing routines that integrate seamlessly into your daily life for long-term health.",
-            image: "images/carrousel_2.png"
+            image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/carrousel_2.png?v=1777359120"
         },
         {
             number: "03",
             title: "Accessible Distribution",
             description: "Ensuring health solutions are available whenever and wherever you need them.",
-            image: "images/carrousel_2.png"
+            image: "https://cdn.shopify.com/s/files/1/0653/9830/9053/files/carrousel_2.png?v=1777359120"
         }
     ];
 
@@ -43,10 +43,10 @@ export default function StructureBeats() {
 
             <div className="w-full">
                 <div className="w-full flex flex-col justify-between items-center text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl mb-10 font-antonio font-bold tracking-tight uppercase scale-y-125 lg:scale-y-150">
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl mb-10 font-antonio font-bold tracking-tight uppercase scale-y-125 lg:scale-y-90">
                         STRUCTURE BEATS WILLPOWER
                     </h2>
-                    <div className="max-w-3xl">
+                    <div className="max-w-5xl">
                         <span className="block text-xl md:text-2xl mb-4 font-satoshi text-gray-900">
                             Designed to make wellness easier to adopt and easier to sustain.
                         </span>
@@ -110,7 +110,7 @@ export default function StructureBeats() {
                                     </div>
                                 </div>
 
-                                <div className={`flex ${activeIndex === index ? 'justify-end items-end' : 'justify-end mt-auto'}`}>
+                                <div className={`flex ${activeIndex === index ? 'justify-end items-end' : 'justify-center mt-auto'}`}>
                                     <button
                                         onClick={(e) => handleToggle(index, e)}
                                         className={`rounded-full border-2 flex items-center justify-center transition-all duration-500 group/btn

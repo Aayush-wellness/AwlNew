@@ -52,7 +52,7 @@ export default function HeroSection() {
           {/* Card 1 - Rooted in tradition */}
           <div className="relative md:left-10 lg:left-12 xl:left:22 w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] xl:h-[600px] rounded-2xl md:rounded-none md:rounded-l-2xl overflow-hidden group cursor-pointer bg-transparent">
             <img
-              src="images/hero/Hero_left.png"
+              src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Hero_left.png?v=1777359244"
               alt="Rooted in tradition"
               className="h-full w-full object-fit transition-transform duration-700 [clip-path:polygon(0_0,_100%_0%,_80%_100%,_0%_100%)]"
             />
@@ -64,7 +64,7 @@ export default function HeroSection() {
           {/* Card 2 - Elevated by science */}
           <div className="relative md:right-10 lg:right-12 xl:right:22 w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] xl:h-[600px] rounded-2xl md:rounded-none md:rounded-r-2xl overflow-hidden group cursor-pointer bg-transparent">
             <img
-              src="images/hero/Hero_right.png"
+              src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/Hero_right.png?v=1777359244"
               alt="Elevated by science"
               className="h-full w-full object-fit transition-transform duration-700 [clip-path:polygon(20%_0,100%_0%,100%_100%,0%_100%)]"
             />

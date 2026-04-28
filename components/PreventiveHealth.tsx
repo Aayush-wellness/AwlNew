@@ -26,7 +26,7 @@ export default function PreventiveHealth() {
                     </div>
 
                     <div className="relative w-full lg:w-1/2 flex justify-end mt-8 lg:mt-0 px-4 md:px-0">
-                        <img src="images/preventive_health.png" alt="preventive" className="w-full rounded-2xl object-cover" />
+                        <img src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/preventive_health.png?v=1777359122" alt="preventive" className="w-full rounded-2xl object-cover" />
 
                         {/* Overlay Text */}
                         <div className="absolute top-1/2 left-4 right-4 md:right-auto md:left-[30%] lg:left-[55%] xl:left-[70%] transform -translate-y-1/2 flex flex-col gap-3 md:gap-5 z-10 w-auto md:w-max">

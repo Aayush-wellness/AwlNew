@@ -9,10 +9,10 @@ const libre = Libre_Baskerville({
 
 export default function OurVision() {
     return (
-        <section className="relative w-full max-h-7xl lg:h-[600px] overflow-hidden">
+        <section className="relative w-full max-h-[700px] lg:h-[600px] overflow-hidden">
             {/* Background Image */}
             <img
-                src="images/Frame_1102.png"
+                src="https://cdn.shopify.com/s/files/1/0653/9830/9053/files/our_vision.png?v=1777359123"
                 alt="Ecosystem Background"
                 className="absolute inset-0 w-full h-full object-fit z-0"
             />
@@ -32,7 +32,7 @@ export default function OurVision() {
 
                     <div className="w-full flex flex-col md:flex-col lg:flex-row gap-8 justify-around items-start">
                         <div className="w-full md:w-full lg:1/2 mx-8 mb-6 flex justify-center items-center">
-                            <p className="w-full text-white text-5xl md:text-4xl lg:text-7xl text-left font-satoshi font-semibold tracking-tight text-center">
+                            <p className="w-full text-white text-5xl md:text-4xl lg:text-6xl text-left font-libre font-semibold tracking-tight text-center">
                                 Preventive health for the next hundred million
                             </p>
                         </div>
