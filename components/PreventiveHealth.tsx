@@ -2,8 +2,8 @@ export default function PreventiveHealth() {
     return (
         <section className="w-full px-4 md:px-16 py-12 lg:py-16 lg:px-12 overflow-hidden">
             <div className="flex justify-start items-center mb-8">
-                <span className="text-black-400 mr-4 text-2xl">•</span>
-                <p className="font-satoshi text-gray-500 uppercase tracking-[0.2em] text-xs font-bold">(Problem)</p>
+                <span className="text-black-400 mr-2 text-3xl mb-1">•</span>
+                <p className="font-satoshi text-black uppercase text-md font-medium">(Problem)</p>
             </div>
             <div className="container mx-auto w-full flex flex-col justify-center items-center mt-8">
 

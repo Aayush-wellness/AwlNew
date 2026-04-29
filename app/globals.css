@@ -5,13 +5,12 @@
   --font-antonio: var(--font-antonio), "Antonio", sans-serif;
   --font-sans: "Satoshi", sans-serif;
   --font-libre: "Libre Baskerville", serif;
-  --font-satoshi: ["var(--font-satoshi)"],
+  --font-satoshi: "Satoshi", sans-serif;
 }
 
 @font-face {
   font-family: 'Satoshi';
-  src: url('/font/Satoshi/Satoshi-Regular.woff2') format('woff2');
-  font-weight: 400;
+  src: url('/public/fonts/satoshi/Satoshi-Regular.ttf');
 }
 
 :root {

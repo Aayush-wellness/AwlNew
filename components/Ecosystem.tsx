@@ -72,24 +72,24 @@ export default function Ecosystem() {
                 <div className="w-full lg:w-1/2 flex flex-col justify-start pt-8 md:pt-12 lg:pt-16">
                     {/* Badge/Tag */}
                     <div className="flex justify-start items-center mb-6 md:mb-12">
-                        <span className="text-white mr-4 text-2xl">•</span>
-                        <p className="text-white font-satoshi uppercase tracking-[0.2em] text-xs font-bold">(Our Ecosystem)</p>
+                        <span className="text-white mr-2 text-3xl mb-1">•</span>
+                        <p className="text-white font-satoshi uppercase text-md font-medium">(Our Ecosystem)</p>
                     </div>
 
                     {/* Main Title */}
                     <div className="mb-12 md:mb-20">
-                        <p className="text-white text-lg sm:text-base md:text-2xl lg:text-xl xl:text-3xl font-antonio font-bold tracking-tight uppercase scale-y-110 md:scale-y-125 lg:scale-y-150 origin-left whitespace-nowrap">
-                            <span className="text-[#EEEE1F] mr-2 md:mr-3 border-l-4 border-[#EEEE1F] pl-3"></span> INSIDE THE AYUSH WELLNESS PLATFORM
+                        <p className="text-white text-xl sm:text-xl md:text-2xl lg:text-xl xl:text-3xl font-antonio font-bold tracking-[2px] uppercase scale-y-100 md:scale-y-100 lg:scale-y-120 origin-left whitespace-nowrap">
+                            <span className="text-[#EEEE1F] mr-2 md:mr-3 border-l-4 border-[#EEEE1F] pl-3 font-antonio"></span> INSIDE THE AYUSH WELLNESS PLATFORM
                         </p>
                     </div>
 
                     {/* Product Highlight */}
                     <div className="max-w-1xl min-h-[250px] flex flex-col justify-center transition-opacity duration-300" key={activeData.id}>
-                        <h2 className="text-white text-4xl md:text-5xl lg:text-4xl xl:text-6xl font-antonio font-bold mb-8 leading-tight whitespace-nowrap">
+                        <h2 className="text-white text-4xl md:text-5xl lg:text-4xl xl:text-6xl font-inter font-semibold mb-8 tracking-wide leading-tight whitespace-nowrap">
                             {activeData.heading}
                         </h2>
 
-                        <p className="max-w-lg text-white text-lg md:text-2xl lg:text-3xl font-satoshi mb-12 opacity-90 leading-relaxed">
+                        <p className="max-w-lg text-white text-lg md:text-2xl lg:text-3xl font-medium font-satoshi mb-12 opacity-90 leading-relaxed">
                             {activeData.description}
                         </p>
 
@@ -115,9 +115,9 @@ export default function Ecosystem() {
                                     }`}
                             >
                                 <span
-                                    className={`uppercase font-antonio transition-all duration-300 whitespace-nowrap ${index === activeIndex
-                                        ? "text-white text-xs sm:text-sm md:text-lg lg:text-lg xl:text-xl font-bold tracking-widest"
-                                        : "text-white text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl font-bold tracking-widest opacity-70 group-hover:opacity-100"
+                                    className={`uppercase font-satoshi transition-all duration-300 whitespace-nowrap ${index === activeIndex
+                                        ? "text-white text-md sm:text-md md:text-lg lg:text-lg xl:text-xl font-semibold tracking-widest"
+                                        : "text-white text-md sm:text-md md:text-lg lg:text-xl xl:text-2xl font-semibold tracking-widest group-hover:opacity-100"
                                         }`}
                                 >
                                     {item.title}

@@ -42,11 +42,11 @@ export default function BusinessModel() {
                 <div className="flex flex-col items-center mb-12 md:mb-20 text-center">
                     <div className="flex items-center gap-3 mb-4">
                         <span className="w-2 h-2 rounded-full bg-black"></span>
-                        <p className="text-xs md:text-sm font-satoshi font-bold tracking-[0.2em] text-gray-800 uppercase">
+                        <p className="text-md md:text-md font-satoshi font-medium text-gray-800 uppercase">
                             (Our Business Model)
                         </p>
                     </div>
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-antonio font-bold tracking-tight text-gray-900 leading-tight">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-antonio font-semibold tracking-tight text-gray-900 leading-tight">
                         Built for scale and long-term growth
                     </h2>
                 </div>
@@ -65,7 +65,7 @@ export default function BusinessModel() {
                             `}
                         >
                             <span className={`
-                                text-sm md:text-lg lg:text-xl font-antonio font-bold
+                                text-sm md:text-lg lg:text-xl font-satoshi font-normal
                                 ${activeTab === index ? "opacity-100" : "opacity-80"}
                             `}>
                                 {data.tabTitle}
@@ -75,9 +75,9 @@ export default function BusinessModel() {
                 </div>
 
                 {/* Content Area */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center sm:max-w-3xl md:max-w-4xl lg:max-w-6xl mx-auto gap-x-64 ">
                     <div className="order-2 md:order-1 transition-all duration-500 transform">
-                        <h3 className="text-2xl md:text-3xl lg:text-4xl font-satoshi text-gray-900 mb-6 leading-tight">
+                        <h3 className="text-2xl md:text-3xl lg:text-4xl font-medium font-satoshi text-[#1E1E1E] mb-6 leading-tight">
                             {businessData[activeTab].heading}
                         </h3>
                         <p className="text-lg md:text-xl text-gray-600 font-satoshi leading-relaxed max-w-lg">

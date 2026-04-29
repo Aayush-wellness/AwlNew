@@ -37,8 +37,8 @@ export default function StructureBeats() {
     return (
         <section className="w-full container mx-auto py-12 lg:py-20 px-6 lg:px-12 overflow-hidden">
             <div className="flex justify-center items-center mb-8">
-                <span className="text-black-400 mr-4 text-2xl">•</span>
-                <p className="text-gray-500 uppercase tracking-[0.2em] text-xs font-bold">(Solution)</p>
+                {/* <span className="text-black-400 mr-2 text-4xl leading-none"></span> */}
+                <p className="text-black uppercase text-md font-satoshi font-medium flex items-center gap-1"><span className="text-3xl leading-none mb-1">•</span>(Solution)</p>
             </div>
 
             <div className="w-full">
@@ -103,7 +103,7 @@ export default function StructureBeats() {
                                             {card.title}
                                         </h4>
 
-                                        <p className={`text-gray-400 text-xl md:text-2xl max-w-md transition-all duration-700 
+                                        <p className={`text-white text-xl md:text-2xl max-w-md transition-all duration-700 
                                             ${activeIndex === index ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8 pointer-events-none h-0'}`}>
                                             {card.description}
                                         </p>
